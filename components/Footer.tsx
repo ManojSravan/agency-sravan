@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="font-bold text-lg mb-4">Forge</h3>
+            <h3 className="font-bold text-lg mb-4">Manoj Sravan</h3>
             <p className="text-sm opacity-75">
               Building digital products that drive growth for ambitious founders and businesses.
             </p>
@@ -14,22 +14,22 @@ export default function Footer() {
             <p className="font-semibold text-sm mb-4">Services</p>
             <ul className="space-y-2 text-sm opacity-75">
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#services" className="hover:opacity-100 transition-opacity">
                   Web Development
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#services" className="hover:opacity-100 transition-opacity">
                   Design
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#services" className="hover:opacity-100 transition-opacity">
                   E-Commerce
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#services" className="hover:opacity-100 transition-opacity">
                   Consulting
                 </a>
               </li>
@@ -40,22 +40,22 @@ export default function Footer() {
             <p className="font-semibold text-sm mb-4">Company</p>
             <ul className="space-y-2 text-sm opacity-75">
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#about" className="hover:opacity-100 transition-opacity">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#work" className="hover:opacity-100 transition-opacity">
                   Work
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
-                  Blog
+            <li>
+                <a href="#process" className="hover:opacity-100 transition-opacity">
+                  Process
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="#contact" className="hover:opacity-100 transition-opacity">
                   Contact
                 </a>
               </li>
@@ -90,15 +90,15 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-75">
-          <p>&copy; 2025 Forge. All rights reserved.</p>
-          <div className="flex gap-6">
+          <p>&copy; 2025 ManojSravan. All rights reserved.</p>
+          {/* <div className="flex gap-6">
             <a href="#" className="hover:opacity-100 transition-opacity">
               Privacy Policy
             </a>
             <a href="#" className="hover:opacity-100 transition-opacity">
               Terms of Service
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

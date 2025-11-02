@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm ">
       <nav className="container mx-auto  py-4 flex items-center justify-between">
-        <div className="font-bold text-2xl tracking-tight text-foreground">Forge</div>
+        <div className="font-bold text-2xl tracking-tight text-foreground">Manoj Sravan</div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
@@ -29,7 +29,7 @@ export default function Header() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <button className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors font-medium text-sm">
+          <button className="px-6 py-2 bg-primary font-bold text-primary-foreground rounded-md hover:bg-primary/90 transition-all hover:scale-105 duration-105  cursor-pointertext-sm">
             Let's Talk
           </button>
         </div>
