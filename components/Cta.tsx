@@ -1,5 +1,6 @@
 'use client'
 import RevealAnimation from "./animations/RevealAnimation";
+import CalendlyButton from "./utils/CalendlyButton";
 
 // CTA component with RevealAnimation added
 export function CtaWithAnimation() {
@@ -27,12 +28,7 @@ export function CtaWithAnimation() {
 
         <RevealAnimation type="slide" direction="up" delay={0.3}>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button
-              onClick={handleClick}
-              className="px-8 cursor-pointer py-3 bg-primary-foreground text-primary rounded-md hover:bg-primary-foreground/90 transition-all hover:scale-105 duration-300 font-semibold"
-            >
-              Schedule 15 Min Call
-            </button>
+            <CalendlyButton/>
             <a
               href="mailto:workwithmanojsravan@gmail.com"
               className="px-8 py-3 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 transition-all font-semibold hover:scale-105 duration-300 rounded-md"

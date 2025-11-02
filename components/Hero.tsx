@@ -23,12 +23,12 @@ export default function Hero() {
 
             <RevealAnimation type="slide" direction="up" delay={0.35}>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="px-8 py-3 cursor-pointer bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-all duration-300 hover:scale-105 font-semibold">
-                  Let's Talk
-                </button>
-                <button className="px-8 py-3 cursor-pointer border-2 border-primary text-primary hover:bg-primary/5 transition-all duration-300 hover:scale-105 font-semibold rounded-md">
+                <a href="https://calendly.com/workwithmanojsravan/free-discovery-call"className="px-8 py-3 cursor-pointer bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-all duration-300 hover:scale-105 font-semibold">
+                  Free Strategy Call
+                </a>
+                <a href="#work" className="px-8 py-3 cursor-pointer border-2 border-primary text-primary hover:bg-primary/5 transition-all duration-300 hover:scale-105 font-semibold rounded-md">
                   See Case Studies
-                </button>
+                </a>
               </div>
             </RevealAnimation>
           </div>

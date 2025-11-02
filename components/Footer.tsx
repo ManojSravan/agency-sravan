@@ -66,22 +66,22 @@ export default function Footer() {
             <p className="font-semibold text-sm mb-4">Connect</p>
             <ul className="space-y-2 text-sm opacity-75">
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
-                  Twitter
+                <a href="https://x.com/manojsravan19?t=ZSJNDCg_Jmjuvhj9xKwIUA&s=09" className="hover:opacity-100 transition-opacity">
+                  Twitter (X)
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="https://www.linkedin.com/in/manojsravan/" className="hover:opacity-100 transition-opacity">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="https://github.com/ManojSravan" className="hover:opacity-100 transition-opacity">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="https://www.instagram.com/sravan_codes/" className="hover:opacity-100 transition-opacity">
                   Instagram
                 </a>
               </li>
