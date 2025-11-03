@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: " Manoj Sravan | Full-Stack Product Engineer, Startup MVP & SaaS Developer ",
+  title: " Manoj Sravan | Product Engineer, Startup MVP & SaaS Developer ",
   description:
     "I help founders build MVPs, SaaS platforms, dashboards, and high-performance web apps. Solo full-stack product engineer with real startup experience — delivering fast, scalable, production-ready builds.",
   keywords: [
