@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="font-bold text-lg mb-4">Manoj Sravan</h3>
+            <h3 className="font-bold text-lg mb-4">Sravan Tech Labs</h3>
             <p className="text-sm opacity-75">
               Building digital products that drive growth for ambitious founders and businesses.
             </p>

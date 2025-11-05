@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm ">
       <nav className="container mx-auto  py-4 flex items-center justify-between">
-        <div className="font-bold text-2xl tracking-tight text-foreground">Manoj Sravan</div>
+        <div className="font-bold text-2xl tracking-tight text-foreground">Sravan Tech Labs</div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
