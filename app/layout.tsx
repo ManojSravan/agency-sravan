@@ -13,49 +13,50 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: " Manoj Sravan | Product Engineer, Startup MVP & SaaS Developer ",
+  title: "Sravan Tech Labs | Product Studio for Startups, SMBs & Enterprises",
   description:
-    "I help founders build MVPs, SaaS platforms, dashboards, and high-performance web apps. Solo full-stack product engineer with real startup experience — delivering fast, scalable, production-ready builds.",
+    "Sravan Tech Labs is a product studio helping startups, SMBs, and enterprises design, build, and scale digital products — from MVPs to full-fledged SaaS platforms. We turn business ideas into fast, scalable, production-ready web applications.",
   keywords: [
-    "startup MVP developer",
-    "SaaS developer",
-    "full-stack product engineer",
-    "hire Next.js developer",
-    "freelance MERN stack developer India",
-    "startup web app development",
-    "MVP development for founders",
-    "solo developer for startups",
-    "React developer India",
-    "Node.js developer India",
-    "founder focused developer",
+    "product studio India",
+    "startup MVP development",
+    "SaaS product development",
+    "custom web app development",
+    "Next.js development company",
+    "React and Node.js developers",
+    "MERN stack development agency",
+    "SMB software development",
+    "enterprise app development",
+    "tech partner for startups",
+    "hire full-stack developers",
   ],
-  authors: [{ name: "Manoj Sravan" }],
-  creator: "Manoj Sravan",
-  publisher: "Manoj Sravan",
+  authors: [{ name: "Sravan Tech Labs" }],
+  creator: "Sravan Tech Labs",
+  publisher: "Sravan Tech Labs",
   openGraph: {
-    title: "Startup MVP & SaaS Developer — Manoj Sravan",
+    title: "Sravan Tech Labs — Product Studio for Startups, SMBs & Enterprises",
     description:
-      "Helping founders build and ship MVPs, SaaS products, and scalable web apps fast. Founder-first engineering.",
-    url: "https://yourdomain.com",
-    siteName: "Manoj Sravan — Founder-Focused Developer",
+      "We build scalable MVPs, SaaS platforms, and digital solutions that help businesses grow. From concept to deployment — your reliable tech partner.",
+    url: "https://sravantechlabs.com",
+    siteName: "Sravan Tech Labs",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Manoj Sravan — Startup MVP & SaaS Developer",
+        alt: "Sravan Tech Labs — Product Studio for Startups, SMBs & Enterprises",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Startup MVP & SaaS Developer — Manoj Sravan",
+    title: "Sravan Tech Labs — Product Studio for Startups, SMBs & Enterprises",
     description:
-      "Solo full-stack developer helping founders build and ship products fast.",
+      "We build MVPs, SaaS platforms, and digital products that power business growth. Your tech partner from idea to launch.",
     images: ["/og-image.png"],
   },
 };
+
 
 
 export default function RootLayout({
