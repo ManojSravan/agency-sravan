@@ -22,6 +22,9 @@ export default function Header() {
           <a href="#work" className="text-sm font-medium hover:text-accent transition-colors">
             Work
           </a>
+          <a href="#pricing" className="text-sm font-medium hover:text-accent transition-colors">
+                Packages
+              </a>
           <a href="#contact" className="text-sm font-medium hover:text-accent transition-colors">
             Contact
           </a>
@@ -29,7 +32,7 @@ export default function Header() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <a href="https://calendly.com/workwithmanojsravan/free-discovery-call" className="px-6 py-2 bg-primary font-bold text-primary-foreground rounded-md transition-all duration-300 hover:bg-primary/90 hover:scale-105 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 cursor-pointer text-sm"
+          <a href="https://cal.com/manoj-sravan-annivg/free-discovery-call" className="px-6 py-2 bg-primary font-bold text-primary-foreground rounded-md transition-all duration-300 hover:bg-primary/90 hover:scale-105 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 cursor-pointer text-sm"
 >
             Let's Talk
           </a>
@@ -52,6 +55,9 @@ export default function Header() {
               </a>
               <a href="#work" className="text-sm font-medium hover:text-accent">
                 Work
+              </a>
+              <a href="#pricing" className="text-sm font-medium hover:text-accent">
+                Packages
               </a>
               <a href="#contact" className="text-sm font-medium hover:text-accent">
                 Contact
